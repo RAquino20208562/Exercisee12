@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  background-image: url("image/sasuke.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  width: 49.5%;
+  float: left;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  margin-top: 2%;
+  margin-left: 1%;
+  width: 30%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  margin-top: 2%;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.body {
+  background-color: #9933cc;
+  background-image: url("image/anime.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  margin-top: 1%;
+  height: 300px;
+  float: left;
+}
+
+.firstbox {
+  background-color: #9933cc;
+  background-image: url("image/yuta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 1%;
+  width: 32.6%;
+  float: left;
+}
+
+.secondbox {
+  background-color: #9933cc;
+  background-image: url("image/rimuru.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 32.6%;
+  float: left;
+}
+
+.thirdbox {
+  background-color: #9933cc;
+  background-image: url("image/levi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 32.6%;
+  float: left;
+}
+
+.fourthbox {
+  background-color: #9933cc;
+  background-image: url("image/asta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 1%;
+  width: 24.2%;
+  float: left;
+}
+
+.fifthbox {
+  background-color: #9933cc;
+  background-image: url("image/yami.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 24.2%;
+  float: left;
+}
+
+.sixthbox {
+  background-color: #9933cc;
+  background-image: url("image/nacht.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 24.2%;
+  float: left;
+}
+
+.seventhbox {
+  background-color: #9933cc;
+  background-image: url("image/inumaki.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 24.2%;
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .header {
+  width: 100%;
+  }
+  
+  form.example input[type=text] {
+  width: 76%;
+  margin-top: 1%;
+
+}
+
+  form.example button {
+  margin-top: 1%;
+}
+  
+  .body {
+  float: left;
+  }
+  
+  .firstbox {
+  width: 100%;
+  }
+  
+  .secondbox {
+  width: 100%;
+  margin-left: 0px;
+  }
+  
+  .thirdbox {
+  width: 100%;
+  margin-left: 0px;
+  }
+  
+  .fourthbox {
+  width: 49.5%;
+  float: left;
+  }
+  
+  .fifthbox {
+  width: 49.5%;
+  margin-left: 1%;
+  float: left;
+  }
+  
+  .sixthbox {
+  width: 49.5%;
+  margin-left: 0px;
+  float: left;
+  }
+  
+  .seventhbox {
+  width: 49.5%;
+  margin-left: 1%;
+  float: left;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .body {
+  height: 100px;
+  font-size: 10px;
+  }
+  
+  .firstbox {
+  height: 200px;
+  }
+  
+  .thirdbox {
+  height: 200px;
+  }
+  
+  .fourthbox {
+  width: 100%;
+  }
+  
+  .fifthbox {
+  display: none;
+  }
+  
+  .sixthbox {
+  display: none;
+  }
+  
+  .seventhbox {
+  display: none
+  }
+}
